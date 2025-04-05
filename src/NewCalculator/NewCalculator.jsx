@@ -142,7 +142,7 @@ function Calculator() {
             <div className={styles.mainCalculatorContainer}>
 
                 <div className={styles.calcultorContainer}>
-                    <h3>CirCus</h3>
+                    <h3>CirCus Calculator</h3>
                     <div className={styles.displaying}>
                         {displayNummber()}</div>
 
