@@ -1,0 +1,16 @@
+<div className={styles.historyContainer}>
+                    <h1>History</h1>
+                    {!showCalculation ? null : history.length > 0 ?
+
+
+                        history.map((cals, index) => (
+                        
+                        <div>
+
+                            <ul style={{ listStyle: "none", padding: 0, marginLeft: -50 }}>
+                                <li key={index}>{cals}</li>
+                            </ul>
+
+                        </div>
+                        )) : "No History"}
+                </div>

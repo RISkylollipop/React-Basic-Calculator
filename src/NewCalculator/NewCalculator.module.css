@@ -1,0 +1,135 @@
+.mainCalculatorContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.historyContainer{
+   border: 2px solid black;
+   width: 300px;
+   height: fit-content;
+   max-height: 300px;
+   overflow-y: scroll;
+   overflow-x: scroll;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.historyContainer h1{
+ font-size: 30px;
+ font-weight: bolder;
+ margin: 0 30px 10px;
+}
+
+.historyContainer p{
+ font-size: 20px;
+ font-weight: 600;
+ font-family: monospace;
+}
+
+
+.calcultorContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+.displaying{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    padding-right: 30px;
+    font-size: 25px;
+    background-color: rgb(240, 236, 232);
+    overflow-x: scroll;
+}
+
+.calcultorContainer h3{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: white;
+}
+
+.longbtn{
+    grid-row: inherit;
+    height: 200px;
+}
+
+.displayingbottom{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 50px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ButtonDisplay{
+    background-color: rgb(240, 219, 198);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btndesign{
+    background-color: rgb(133, 127, 127);
+}
+
+
+.showbtn{
+    width: 55px;
+    font-size: 10px !important;
+    background-color: red;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* Example CSS */
+/* .historyCard {
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.historyCard h4 {
+    text-align: center;
+}
+
+.historyCard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.historyCard li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ButtonDisplay {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ButtonDisplay:hover {
+    background-color: #ddd;
+} */
